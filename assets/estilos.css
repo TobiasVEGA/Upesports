@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns:repeat(10, 1fr) ;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-areas: 'nav nav nav nav nav nav nav nav nav nav'
+                         'lat lat prin prin prin prin prin prin prin prin' 
+                         'lat lat prin prin prin prin prin prin prin prin' 
+                         'lat lat prin prin prin prin prin prin prin prin' 
+                         'lat lat prin prin prin prin prin prin prin prin' 
+                         'lat lat prin prin prin prin prin prin prin prin' 
+                         'lat lat prin prin prin prin prin prin prin prin' 
+                         'lat lat prin prin prin prin prin prin prin prin' 
+                         'lat lat prin prin prin prin prin prin prin prin' 
+                         'lat lat prin prin prin prin prin prin prin prin';
+
+}
+.gridupfamily{
+    display: grid;
+    height: 100vh;
+    grid-template-columns:repeat(10, 1fr) ;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-areas: 'nav nav nav nav nav nav nav nav nav nav'
+                         'prin prin prin prin prin prin prin lat lat lat' 
+                         'prin prin prin prin prin prin prin lat lat lat' 
+                         'prin prin prin prin prin prin prin lat lat lat' 
+                         'prin prin prin prin prin prin prin lat lat lat' 
+                         'prin prin prin prin prin prin prin lat lat lat' 
+                         'prin prin prin prin prin prin prin lat lat lat' 
+                         'prin prin prin prin prin prin prin lat lat lat' 
+                         'prin prin prin prin prin prin prin lat lat lat' 
+                         'prin prin prin prin prin prin prin lat lat lat';
+}
+.gridteam{
+    display: grid;
+    height: 100vh;
+    grid-template-columns:repeat(10, 1fr) ;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-areas: 'nav nav nav nav nav nav nav nav nav nav'
+                         'prin prin prin prin prin prin prin lat lat lat' 
+                         'prin prin prin prin prin prin prin lat lat lat' 
+                         'prin prin prin prin prin prin prin lat lat lat' 
+                         'prin prin prin prin prin prin prin lat lat lat' 
+                         'prin prin prin prin prin prin prin lat lat lat' 
+                         'prin prin prin prin prin prin prin lat lat lat' 
+                         'prin prin prin prin prin prin prin lat lat lat' 
+                         'prin prin prin prin prin prin prin lat lat lat' 
+                         'prin prin prin prin prin prin prin lat lat lat';
+}
+
+
+p{
+    font-size: 20px;
+}
+#navegacion {    
+    grid-area: nav;
+    background-color: red;    
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#navegacion > #lista-ho li{
+    display: inline;    
+    border: 2px solid white;
+}
+
+#fotoLat {
+    grid-area: lat;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#principal{
+    grid-area: prin;
+    background-color: white;
+    font-size: 2em;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.textnav{
+    list-style-type: none;
+    display: inline-block
+}
+
+a{
+    text-decoration: none;   
+}
+
+/*** MENU ***/
+ .textlink{
+    color: aliceblue;
+    display: inline-block;
+    float: left;
+ }
+ .gradient{
+    background-image: linear-gradient(to bottom, red, yellow);
+
+ }
+ #home{
+    flex-wrap: wrap;
+ }
