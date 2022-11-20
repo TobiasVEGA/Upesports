@@ -126,3 +126,35 @@ a{
         ;
     }
  }
+ @media screen and (max-width: 768px){
+    .gridteam {
+        grid-template-areas: 
+                        'nav nav nav nav nav nav nav nav nav nav'
+                         'lat lat lat lat lat lat lat lat lat lat' 
+                         'lat lat lat lat lat lat lat lat lat lat' 
+                         'prin prin prin prin prin prin prin prin prin prin' 
+                         'prin prin prin prin prin prin prin prin prin prin' 
+                         'prin prin prin prin prin prin prin prin prin prin' 
+                         'prin prin prin prin prin prin prin prin prin prin' 
+                         'prin prin prin prin prin prin prin prin prin prin' 
+                         'prin prin prin prin prin prin prin prin prin prin' 
+                         'prin prin prin prin prin prin prin prin prin prin'
+        ;
+    }
+    }
+    @media screen and (max-width: 768px){
+        .gridupfamily {
+            grid-template-areas: 
+                            'nav nav nav nav nav nav nav nav nav nav'
+                             'lat lat lat lat lat lat lat lat lat lat' 
+                             'lat lat lat lat lat lat lat lat lat lat' 
+                             'prin prin prin prin prin prin prin prin prin prin' 
+                             'prin prin prin prin prin prin prin prin prin prin' 
+                             'prin prin prin prin prin prin prin prin prin prin' 
+                             'prin prin prin prin prin prin prin prin prin prin' 
+                             'prin prin prin prin prin prin prin prin prin prin' 
+                             'prin prin prin prin prin prin prin prin prin prin' 
+                             'prin prin prin prin prin prin prin prin prin prin'
+            ;
+        }
+        }
